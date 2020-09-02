@@ -83,6 +83,41 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-03",
+      "description": "The testiest ",
+      "category": "Entertainment",
+      "amount": "2000",
+      "id": 13
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 14
+    },
+    {
+      "date": "2020-09-30",
+      "description": "Testing 2",
+      "category": "Income",
+      "amount": "1",
+      "id": 15
+    },
+    {
+      "date": "2020-09-24",
+      "description": "Testing 3",
+      "category": "Entertainment",
+      "amount": "4",
+      "id": 16
+    },
+    {
+      "date": "2020-09-24",
+      "description": "Big Freedia",
+      "category": "Better Known as Queen Diva",
+      "amount": "2",
+      "id": 17
     }
   ]
 }
