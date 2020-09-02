@@ -21,7 +21,7 @@ class AccountContainer extends Component {
         {
           id: 0,
           category: "",
-          description: "No matches",
+          description: "No matches found",
           amount: "",
         },
       ];
@@ -32,7 +32,7 @@ class AccountContainer extends Component {
   };
 
   render() {
-    const { transactions, postTransaction } = this.props;
+    const { transactions, postTransaction, deleteTransaction } = this.props;
     return (
       <div>
         <Search filterTransactions={this.filterTransactions} />
@@ -43,6 +43,7 @@ class AccountContainer extends Component {
               ? this.state.filteredTransactions
               : transactions
           }
+          deleteTransaction={deleteTransaction}
         />
       </div>
     );

@@ -50,13 +50,6 @@
       "amount": 50
     },
     {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
       "id": 9,
       "date": "2019-12-11",
       "description": "Paycheck from Bob's Burgers",
@@ -92,25 +85,11 @@
       "id": 13
     },
     {
-      "date": "2020-09-09",
-      "description": "Rolex",
-      "category": "Fashion",
-      "amount": "900",
-      "id": 14
-    },
-    {
       "date": "2020-09-17",
       "description": "Services rendered to Flatiron",
       "category": "Income",
       "amount": "1500",
       "id": 15
-    },
-    {
-      "date": "2020-09-02",
-      "description": "Dinner at Portillos",
-      "category": "food",
-      "amount": "-20.00",
-      "id": 16
     }
   ]
 }

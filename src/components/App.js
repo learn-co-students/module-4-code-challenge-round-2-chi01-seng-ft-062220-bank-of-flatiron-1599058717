@@ -34,6 +34,24 @@ class App extends Component {
     });
   };
 
+  deleteTransaction = async (id) => {
+    const reqObj = {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+    const res = await fetch(`${API}/${id}`, reqObj);
+    if (res.status !== 404) {
+      const updatedTransactions = this.state.transactions.filter(
+        (transaction) => transaction.id !== id
+      );
+      this.setState({
+        transactions: updatedTransactions,
+      });
+    }
+  };
+
   componentDidMount() {
     this.getTransactions();
   }
@@ -47,6 +65,7 @@ class App extends Component {
         <AccountContainer
           transactions={this.state.transactions}
           postTransaction={this.postTransaction}
+          deleteTransaction={this.deleteTransaction}
         />
       </div>
     );
