@@ -1,8 +1,7 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-const TransactionsList = (props) => {
-  const { transactions, deleteTransaction } = props;
+const TransactionsList = ({ transactions, deleteTransaction }) => {
   return (
     <table className="ui celled striped padded table">
       <tbody>

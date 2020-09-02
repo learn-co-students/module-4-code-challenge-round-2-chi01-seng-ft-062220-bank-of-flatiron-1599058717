@@ -1,7 +1,6 @@
 import React from "react";
 
-const Search = (props) => {
-  const { filterTransactions } = props;
+const Search = ({ filterTransactions }) => {
   return (
     <div className="ui large fluid icon input">
       <input

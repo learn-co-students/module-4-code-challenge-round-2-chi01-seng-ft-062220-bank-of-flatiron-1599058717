@@ -1,7 +1,6 @@
 import React from "react";
 
-const Transaction = (props) => {
-  const { deleteTransaction, transaction } = props;
+const Transaction = ({ deleteTransaction, transaction }) => {
   const { id, date, description, category, amount } = transaction;
   const button =
     description === "No matches found" ? null : (

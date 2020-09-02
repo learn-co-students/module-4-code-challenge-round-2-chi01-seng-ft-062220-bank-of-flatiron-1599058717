@@ -83,13 +83,6 @@
       "category": "Income",
       "amount": "1000",
       "id": 13
-    },
-    {
-      "date": "2020-09-17",
-      "description": "Services rendered to Flatiron",
-      "category": "Income",
-      "amount": "1500",
-      "id": 15
     }
   ]
 }
