@@ -83,6 +83,34 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": "1000",
+      "id": 13
+    },
+    {
+      "date": "2020-09-09",
+      "description": "Rolex",
+      "category": "Fashion",
+      "amount": "900",
+      "id": 14
+    },
+    {
+      "date": "2020-09-17",
+      "description": "Services rendered to Flatiron",
+      "category": "Income",
+      "amount": "1500",
+      "id": 15
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Dinner at Portillos",
+      "category": "food",
+      "amount": "-20.00",
+      "id": 16
     }
   ]
 }
