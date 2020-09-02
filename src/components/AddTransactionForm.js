@@ -14,10 +14,10 @@ class AddTransactionForm extends Component {
     })
   }
 
-  newTransaction = (e) => {
-    e.preventDefault()
-    let newTransaction = this.state
-    this.props.newTransaction(newTransaction)
+  newTrans = (e) => {
+    // e.preventDefault()
+    let newTrans = this.state
+    this.newTrans(newTrans)
     this.setState({
       date: '',
       description: '',
@@ -29,7 +29,7 @@ class AddTransactionForm extends Component {
   render() {
     return (
       <div className="ui segment">
-        <form className="ui form" onSubmit={this.newTransaction}>
+        <form className="ui form" onSubmit={this.newTrans}>
           <div className="inline fields">
             <input type="date" name="date" onChange={this.handleInput} value={this.state.date} />
             <input type="text" name="description" onChange={this.handleInput} value={this.state.description} placeholder="Description" />
