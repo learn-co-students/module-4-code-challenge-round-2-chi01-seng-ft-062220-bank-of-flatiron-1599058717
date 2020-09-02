@@ -83,6 +83,20 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Cafe53",
+      "category": "Food",
+      "amount": "3.50",
+      "id": 13
+    },
+    {
+      "date": "2020-09-02",
+      "description": "McDonalds",
+      "category": "Food",
+      "amount": "6.00",
+      "id": 14
     }
   ]
 }
