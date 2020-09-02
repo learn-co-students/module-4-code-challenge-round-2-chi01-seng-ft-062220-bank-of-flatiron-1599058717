@@ -18,6 +18,9 @@ const TransactionsList = ({ transactions, deleteTransaction }) => {
           <th>
             <h3 className="ui center aligned header">Amount</h3>
           </th>
+          <th>
+          <h3 className="ui center aligned header">Delete</h3>
+          </th>
         </tr>
         {transactions.map((transaction) => (
           <Transaction

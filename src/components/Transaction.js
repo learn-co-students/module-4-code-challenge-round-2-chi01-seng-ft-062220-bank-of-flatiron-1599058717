@@ -8,7 +8,7 @@ const Transaction = ({ deleteTransaction, transaction }) => {
         className="ui inverted red button"
         onClick={() => deleteTransaction(id)}
       >
-        Delete
+        <i class="trash icon"></i>
       </button>
     );
   return (
