@@ -1,7 +1,12 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-const TransactionsList = () => {
+class TransactionsList extends React.Component {
+  renderTransactions = () => {
+    return this.props.transactions.map((trans, index) => <Transaction transaction={trans} key={index} />)
+  }
+
+  render(){
   return (
     <table className="ui celled striped padded table">
       <tbody>
@@ -19,10 +24,11 @@ const TransactionsList = () => {
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {/* render Transactions here */}
+        {this.renderTransactions()} 
       </tbody>
     </table>
   );
+  }
 };
 
 export default TransactionsList;
