@@ -13,6 +13,12 @@ import AddTransactionForm from "./AddTransactionForm";
 //    X term should be shown in the transactions table.
 
 
+//     ADVANCED DELIVERABLES
+//1. X  Delete Functionality Working
+
+//2  Sorting by category or alphabetically
+
+
 
 class AccountContainer extends Component {
   //1. X  Set state up to hold all the account objects
@@ -75,6 +81,23 @@ filteredTransaction = () => {
   return filteredTransaction;
 }
 
+handleDelete = (transactionId) => {
+  fetch(`http://localhost:6001/transactions/${transactionId}`, {
+    method: "DELETE",
+    header: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+  })
+    .then((resp) => resp.json())
+    .then((toys) => {
+      let thisArray = this.state.transactions;
+      let newArray = thisArray.pop();
+      this.setState({
+        allTheToys: thisArray,
+      });
+    });
+};
 
 
   render() {
@@ -96,7 +119,7 @@ filteredTransaction = () => {
                    transactions={this.filteredTransaction()}
                    because we now want to dsiplay either all of them
                    or only filtered ones*/}
-        <TransactionsList transactions={this.filteredTransaction()}/>
+        <TransactionsList handleDelete={this.handleDelete} transactions={this.filteredTransaction()}/>
       </div>
     );
   }

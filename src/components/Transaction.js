@@ -10,6 +10,7 @@ class Transaction extends React.Component{
       <td>{this.props.transaction.description}</td>
       <td>{this.props.transaction.category}</td>
       <td>{this.props.transaction.amount}</td>
+      <button onClick={() => this.props.handleDelete(this.props.transaction.id)} className="del-btn">Delete Transaction</button>
     </tr>
   );
 };

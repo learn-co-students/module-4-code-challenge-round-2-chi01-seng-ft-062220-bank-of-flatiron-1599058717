@@ -8,8 +8,10 @@ renderTransactions(){
   //      Transaction component with each object
   return this.props.transactions.map(transaction => 
   <Transaction 
+  id={transaction.id}
   key={transaction.id}
     transaction={transaction}
+    handleDelete={this.props.handleDelete}
   />)
 }
 

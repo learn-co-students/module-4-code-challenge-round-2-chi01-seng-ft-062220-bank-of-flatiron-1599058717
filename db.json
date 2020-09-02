@@ -97,34 +97,6 @@
         "amount": "100000000"
       },
       "id": 13
-    },
-    {
-      "date": "2020-09-03",
-      "description": "Tri suit",
-      "cateogry": "",
-      "amount": "999",
-      "category": "Fitness",
-      "transactions": {
-        "date": "2020-09-03",
-        "description": "Tri suit",
-        "category": "Fitness",
-        "amount": "999"
-      },
-      "id": 14
-    },
-    {
-      "date": "2020-09-03",
-      "description": "Vegan Burger",
-      "cateogry": "",
-      "amount": "10.00",
-      "category": "Food",
-      "transactions": {
-        "date": "2020-09-03",
-        "description": "Vegan Burger",
-        "category": "Food",
-        "amount": "10.00"
-      },
-      "id": 15
     }
   ]
 }
