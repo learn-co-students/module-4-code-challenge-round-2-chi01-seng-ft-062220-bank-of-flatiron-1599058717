@@ -83,6 +83,20 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Triathlon Suit",
+      "cateogry": "",
+      "amount": "999",
+      "category": "Sport",
+      "transactions": {
+        "date": "2020-09-03",
+        "description": "Triathlon Suit",
+        "category": "Sport",
+        "amount": "999"
+      },
+      "id": 13
     }
   ]
 }

@@ -12,7 +12,9 @@
     "start": "json-server --watch db.json -p 6001 & open http://localhost:6001/transactions & PORT=6002 react-scripts start && fg",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch db.json --port 5000",
+    "dev": "concurrently \"npm start\" \"npm run json-server\""
   },
   "browserslist": {
     "production": [
@@ -25,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.1"
   }
 }
