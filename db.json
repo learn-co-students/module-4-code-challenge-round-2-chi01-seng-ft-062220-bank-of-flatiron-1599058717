@@ -83,6 +83,62 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-24",
+      "description": "books",
+      "category": "Entertainment",
+      "amount": "50",
+      "id": 13
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Celebration Lunch",
+      "category": "Food",
+      "amount": "50",
+      "id": 14
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Ice Cream DnD Dice",
+      "category": "Entertainment",
+      "amount": "1000",
+      "id": 15
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Paper Mario Origami King",
+      "category": "Entertainment",
+      "amount": "60",
+      "id": 16
+    },
+    {
+      "date": "2020-09-02",
+      "description": "Celebration Beer",
+      "category": "Entertainment",
+      "amount": "30",
+      "id": 17
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 18
+    },
+    {
+      "date": "2020-09-02",
+      "description": "test",
+      "category": "test",
+      "amount": "11",
+      "id": 19
+    },
+    {
+      "date": "2020-09-02",
+      "description": "another test",
+      "category": "test",
+      "amount": "10",
+      "id": 20
     }
   ]
 }
