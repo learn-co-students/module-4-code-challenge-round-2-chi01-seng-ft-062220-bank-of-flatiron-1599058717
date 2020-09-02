@@ -83,6 +83,48 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Drinks on Drinks ",
+      "cateogry": "",
+      "amount": "100000000",
+      "category": "Entertainment",
+      "transactions": {
+        "date": "2020-09-03",
+        "description": "Drinks on Drinks ",
+        "category": "Entertainment",
+        "amount": "100000000"
+      },
+      "id": 13
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Tri suit",
+      "cateogry": "",
+      "amount": "999",
+      "category": "Fitness",
+      "transactions": {
+        "date": "2020-09-03",
+        "description": "Tri suit",
+        "category": "Fitness",
+        "amount": "999"
+      },
+      "id": 14
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Vegan Burger",
+      "cateogry": "",
+      "amount": "10.00",
+      "category": "Food",
+      "transactions": {
+        "date": "2020-09-03",
+        "description": "Vegan Burger",
+        "category": "Food",
+        "amount": "10.00"
+      },
+      "id": 15
     }
   ]
 }
