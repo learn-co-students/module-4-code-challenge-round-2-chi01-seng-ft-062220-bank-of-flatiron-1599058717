@@ -42,9 +42,13 @@ class App extends Component {
   }
 
 
-  handleSearch = () => {
+  handleSearch = (e) => {
+    console.log(e.target.value)
 
-    console.log(this.state.searchTerm)
+    //set searchTerm = to the value
+    //set a conditional in TransactionList to check for serach term
+    //if search term is not blank, filter transactions by description starting with search term into new array, and send that into AccountContainer instead
+    
   }
 
 
@@ -64,7 +68,7 @@ class App extends Component {
         <div className="ui segment violet inverted">
           <h2>The Royal Bank of Flatiron</h2>
         </div>
-        <AccountContainer transactions={this.state.allTrans} newTrans={this.handleNewTrans} />
+        <AccountContainer transactions={this.state.allTrans} searchTerm={this.state.searchTerm} newTrans={this.handleNewTrans} handleSearch={this.handleSearch} />
       </div>
     );
   }

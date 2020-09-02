@@ -22,7 +22,8 @@ const TransactionsList = (props) => {
         </tr>
         {
         props.transactions.map(oneTransaction => {
-          return <Transaction transaction={oneTransaction} />
+          //if(oneTransaction.startsWith(searchTerm)) {
+            return <Transaction transaction={oneTransaction} />
         })
         }
       </tbody>

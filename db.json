@@ -90,6 +90,20 @@
       "category": "asdf",
       "amount": "0.04",
       "id": 13
+    },
+    {
+      "date": "2020-09-10",
+      "description": "asdf",
+      "category": "asdf",
+      "amount": "0.03",
+      "id": 14
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 15
     }
   ]
 }
