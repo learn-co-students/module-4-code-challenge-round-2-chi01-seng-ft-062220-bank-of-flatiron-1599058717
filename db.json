@@ -83,6 +83,55 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-09-03",
+      "description": "B-Day Present",
+      "category": "Gift",
+      "amount": "400",
+      "id": 13
+    },
+    {
+      "date": "2020-09-05",
+      "description": "Rent",
+      "category": "Housing",
+      "amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2020-09-07",
+      "description": "Date Night",
+      "category": "Food",
+      "amount": "50",
+      "id": 15
+    },
+    {
+      "date": "2020-09-12",
+      "description": "Eating Out",
+      "category": "Food",
+      "amount": "-25",
+      "id": 16
+    },
+    {
+      "date": "2020-09-10",
+      "description": "Date Night",
+      "category": "Food",
+      "amount": "-58",
+      "id": 17
+    },
+    {
+      "date": "2020-09-03",
+      "description": "Mom's B-Day Dinner",
+      "category": "Food",
+      "amount": "-100",
+      "id": 18
+    },
+    {
+      "date": "2020-09-30",
+      "description": "Eating Out",
+      "category": "Food",
+      "amount": "-10",
+      "id": 19
     }
   ]
 }
