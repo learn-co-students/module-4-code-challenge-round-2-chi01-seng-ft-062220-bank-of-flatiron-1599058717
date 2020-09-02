@@ -1,9 +1,18 @@
-import React from "react";
+import React, { Component } from 'react';
 import Transaction from "./Transaction";
 
-const TransactionsList = () => {
-  return (
-    <table className="ui celled striped padded table">
+class TransactionsList extends Component {
+
+
+  renderTransactions = () => {
+    return this.props.allTransactions.map(transaction => {
+      return <Transaction transData={transaction} handleDelete={this.props.handleDelete}/> 
+    })
+  }
+
+  render() {
+    return (
+      <table className="ui celled striped padded table">
       <tbody>
         <tr>
           <th>
@@ -18,11 +27,17 @@ const TransactionsList = () => {
           <th>
             <h3 className="ui center aligned header">Amount</h3>
           </th>
+          <th>
+            <h3 className="ui center aligned header">DELETE</h3>
+          </th>
         </tr>
-        {/* render Transactions here */}
+          { this.renderTransactions() }
       </tbody>
     </table>
-  );
-};
+    );
+  }
+}
 
 export default TransactionsList;
+
+
