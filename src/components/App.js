@@ -8,6 +8,7 @@ class App extends Component {
     super()
     this.state = {
       transactions: [],
+      filteredTransactions: [],
       date: '',
       description: '',
       category: '',
@@ -62,7 +63,6 @@ class App extends Component {
     .then(transaction => {
        this.setState({
          transactions: [...this.state.transactions, transaction],
-         filteredTransactions: [],
          date: '',
          description: '',
          category: '',
@@ -72,10 +72,14 @@ class App extends Component {
   }
 
   handleSearch = (event) => {
-    console.log(event.target.value)
-    const filteredTransactions = this.state.transactions.filter(transaction => transaction.description.toLowerCase().includes(event.target.value))
+    let filteredTransactions = []
+    if (event.target.value !== ""){
+    filteredTransactions = this.state.transactions.filter(transaction => transaction.description.toLowerCase().includes(event.target.value))
+    }
+    else { filteredTransactions = this.state.transactions }
     this.setState({transactions: filteredTransactions})
   //idk how to get this to search if you backspace, you have to refresh for the full list again
+  //maybe could use this.state.filteredTransactions
   }
 
   render() {
