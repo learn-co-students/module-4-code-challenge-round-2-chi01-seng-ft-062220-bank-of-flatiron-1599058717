@@ -86,15 +86,15 @@
     },
     {
       "date": "2020-09-03",
-      "description": "Drinks on Drinks ",
+      "description": "Triathlon Suit",
       "cateogry": "",
-      "amount": "100000000",
-      "category": "Entertainment",
+      "amount": "999",
+      "category": "Sport",
       "transactions": {
         "date": "2020-09-03",
-        "description": "Drinks on Drinks ",
-        "category": "Entertainment",
-        "amount": "100000000"
+        "description": "Triathlon Suit",
+        "category": "Sport",
+        "amount": "999"
       },
       "id": 13
     }

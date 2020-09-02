@@ -26,6 +26,7 @@ class AccountContainer extends Component {
     transactions: [],
     //16. X Setting a search state to a Parent component
     search: ""
+    
   }
 
   //2.    X Fetch the transactions and set them as state
