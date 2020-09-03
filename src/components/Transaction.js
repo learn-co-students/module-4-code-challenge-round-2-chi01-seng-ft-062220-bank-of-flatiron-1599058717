@@ -10,7 +10,7 @@ const Transaction = (props) => {
       <td>{amount}</td>
       <td>
       <button className="ui button" type="submit" onClick={(e) => props.removeTransaction(e, id)}>
-            Remove Transaction
+            Delete
         </button>
       </td>
     </tr>

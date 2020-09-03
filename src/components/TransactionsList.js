@@ -21,8 +21,8 @@ const TransactionsList = (props) => {
         </tr>
         
         
-        {props.transactions.map((transactionData, index) => {
-          return <Transaction key={index} transaction={transactionData} removeTransaction={props.removeTransaction}/>
+        {props.transactions.map((data, index) => {
+          return <Transaction key={index} transaction={data} removeTransaction={props.removeTransaction}/>
         })}
       </tbody>
     </table>

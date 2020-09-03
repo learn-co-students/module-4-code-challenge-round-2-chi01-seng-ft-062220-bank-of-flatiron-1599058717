@@ -28,9 +28,9 @@ class App extends Component {
     }
     fetch('http://localhost:6001/transactions', reqObj)
       .then(response => response.json())
-        .then(addedTransaction => {
+        .then(addTransaction => {
           this.setState({
-            transactions: [...this.state.transactions, addedTransaction]
+            transactions: [...this.state.transactions, addTransaction]
           })
         })
   }
