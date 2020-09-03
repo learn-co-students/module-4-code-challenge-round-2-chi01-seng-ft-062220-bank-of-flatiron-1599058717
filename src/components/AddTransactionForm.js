@@ -15,9 +15,9 @@ class AddTransactionForm extends Component {
   }
 
   newTrans = (e) => {
-    // e.preventDefault()
+    // e.preventDefault()  
     let newTrans = this.state
-    this.newTrans(newTrans)
+    this.props.newTrans(newTrans)
     this.setState({
       date: '',
       description: '',
